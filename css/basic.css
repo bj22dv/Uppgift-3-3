@@ -27,6 +27,10 @@
     min-height:215px;
     background:#eae7d2;
 }
+#menu
+{
+    
+}
 #menu ul a:link                                      
 {
     display:block;
@@ -40,6 +44,11 @@
     font-family:Verdana;
     font-size:12px;
 }
+#menu ul a:hover                                      
+{
+    color:#797066;
+    background-color:#eae7d2;
+}
 #menu a:link
 {
     display:none;
@@ -47,6 +56,20 @@
 ul
 {
     list-style-type:none;
+}
+h1
+{
+    color:#797066;
+    font-family:Verdana;    
+}
+#maincontent p
+{
+    font-size:13px;
+}
+p
+{
+    color:#797066;
+    font-family:Verdana;
 }
 
 /*body #eae7d2
