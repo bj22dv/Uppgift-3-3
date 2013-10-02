@@ -21,6 +21,15 @@
     font-style:italic;
     text-align:right;
 }
+#bottomcontent
+{
+    color:#797066;
+    font-family:Verdana;
+    font-size:10px;
+    font-style:italic;
+    margin-left:10px;
+    margin-bottom:;
+}
 #content
 {
     width:600px;
@@ -60,28 +69,53 @@
 {
     display:none;
 }
+a
+{
+    font-size:12px;
+    font-family:Verdana;
+    color:#797066;
+}
 ul
 {
     list-style-type:none;
 }
-h1
+#maincontent h1
 {
     color:#797066;
     font-family:Times;
     font-weight:normal;
 }
+h2
+{
+    color:#797066;
+    font-family:Times;
+    font-weight:normal;
+    font-size:14px;
+}
 #maincontent
 {
+    width:300px;
+    float:left;
     margin-left:10px;   
 }
 #subcontent
 {
-    
+    margin-top:20px;
+    width:250px;
+    float:right;
+    border-left:1px dashed;
 }
 
 #maincontent p
 {
     font-size:13px;
+}
+#subcontent h1
+{
+    color:#797066;
+    font-family:Times;
+    font-weight:normal;
+    font-size:20px;
 }
 #subcontent p
 {
